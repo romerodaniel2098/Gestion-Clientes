@@ -2834,11 +2834,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Infrastructure/management.Infrastructure.csproj",
+      "projectUniqueName": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Infrastructure/management.Infrastructure.csproj",
       "projectName": "management.Infrastructure",
-      "projectPath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Infrastructure/management.Infrastructure.csproj",
+      "projectPath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Infrastructure/management.Infrastructure.csproj",
       "packagesPath": "/home/javierdevpro/.nuget/packages/",
-      "outputPath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Infrastructure/obj/",
+      "outputPath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/javierdevpro/.nuget/NuGet/NuGet.Config"
@@ -2853,8 +2853,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Application/management.Application.csproj": {
-              "projectPath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Application/management.Application.csproj"
+            "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Application/management.Application.csproj": {
+              "projectPath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Application/management.Application.csproj"
             }
           }
         }
