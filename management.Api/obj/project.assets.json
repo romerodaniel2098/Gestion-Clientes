@@ -182,5 +182,13 @@
         "runtimeIdentifierGraphPath": "/home/javierdevpro/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Api/obj/project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
+    }
+  ]
 }
