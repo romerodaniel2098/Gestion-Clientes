@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "j19u5qW2siU=",
+  "success": true,
+  "projectFilePath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Api/management.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/javierdevpro/.nuget/packages/microsoft.aspnetcore.openapi/9.0.10/microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "/home/javierdevpro/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
