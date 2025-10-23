@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Api/management.Api.csproj": {}
+    "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Api/management.Api.csproj": {}
   },
   "projects": {
-    "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Api/management.Api.csproj": {
+    "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Api/management.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Api/management.Api.csproj",
+        "projectUniqueName": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Api/management.Api.csproj",
         "projectName": "management.Api",
-        "projectPath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Api/management.Api.csproj",
-        "packagesPath": "/home/javierdevpro/.nuget/packages/",
-        "outputPath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Api/obj/",
+        "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Api/management.Api.csproj",
+        "packagesPath": "/home/jeronimo/.nuget/packages/",
+        "outputPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/javierdevpro/.nuget/NuGet/NuGet.Config"
+          "/home/jeronimo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Application/management.Application.csproj": {
-                "projectPath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Application/management.Application.csproj"
+              "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj": {
+                "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj"
               }
             }
           }
@@ -41,8 +41,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -72,21 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/javierdevpro/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Application/management.Application.csproj": {
+    "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Application/management.Application.csproj",
+        "projectUniqueName": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj",
         "projectName": "management.Application",
-        "projectPath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Application/management.Application.csproj",
-        "packagesPath": "/home/javierdevpro/.nuget/packages/",
-        "outputPath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Application/obj/",
+        "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj",
+        "packagesPath": "/home/jeronimo/.nuget/packages/",
+        "outputPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/javierdevpro/.nuget/NuGet/NuGet.Config"
+          "/home/jeronimo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -98,8 +97,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Domain/management.Domain.csproj": {
-                "projectPath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Domain/management.Domain.csproj"
+              "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/management.Domain.csproj": {
+                "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/management.Domain.csproj"
               }
             }
           }
@@ -113,8 +112,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -135,21 +133,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/javierdevpro/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Domain/management.Domain.csproj": {
+    "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/management.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Domain/management.Domain.csproj",
+        "projectUniqueName": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/management.Domain.csproj",
         "projectName": "management.Domain",
-        "projectPath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Domain/management.Domain.csproj",
-        "packagesPath": "/home/javierdevpro/.nuget/packages/",
-        "outputPath": "/home/javierdevpro/Escritorio/Proyectos/HU1M2/management.Domain/obj/",
+        "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/management.Domain.csproj",
+        "packagesPath": "/home/jeronimo/.nuget/packages/",
+        "outputPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/javierdevpro/.nuget/NuGet/NuGet.Config"
+          "/home/jeronimo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -172,8 +170,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -194,7 +191,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/javierdevpro/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
