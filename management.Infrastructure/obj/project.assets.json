@@ -2829,19 +2829,19 @@
     ]
   },
   "packageFolders": {
-    "/home/jeronimo/.nuget/packages/": {}
+    "/home/javierdevpro/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Infrastructure/management.Infrastructure.csproj",
+      "projectUniqueName": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Infrastructure/management.Infrastructure.csproj",
       "projectName": "management.Infrastructure",
-      "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Infrastructure/management.Infrastructure.csproj",
-      "packagesPath": "/home/jeronimo/.nuget/packages/",
-      "outputPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Infrastructure/obj/",
+      "projectPath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Infrastructure/management.Infrastructure.csproj",
+      "packagesPath": "/home/javierdevpro/.nuget/packages/",
+      "outputPath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jeronimo/.nuget/NuGet/NuGet.Config"
+        "/home/javierdevpro/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -2853,8 +2853,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj": {
-              "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj"
+            "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Application/management.Application.csproj": {
+              "projectPath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Application/management.Application.csproj"
             }
           }
         }
@@ -2868,7 +2868,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -2905,7 +2906,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/javierdevpro/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

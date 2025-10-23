@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uUES8tlOmzY=",
+  "dgSpecHash": "yPt7O2u0J5U=",
   "success": true,
-  "projectFilePath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Api/management.Api.csproj",
+  "projectFilePath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Api/management.Api.csproj",
   "expectedPackageFiles": [
-    "/home/jeronimo/.nuget/packages/microsoft.aspnetcore.openapi/9.0.10/microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
-    "/home/jeronimo/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+    "/home/javierdevpro/.nuget/packages/microsoft.aspnetcore.openapi/9.0.10/microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "/home/javierdevpro/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
   ],
   "logs": []
 }
