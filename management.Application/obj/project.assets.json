@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "/home/javierdevpro/.nuget/packages/": {}
+    "/home/emmanueljllo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Application/management.Application.csproj",
+      "projectUniqueName": "/home/emmanueljllo/Gestion-Clientes/management.Application/management.Application.csproj",
       "projectName": "management.Application",
-      "projectPath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Application/management.Application.csproj",
-      "packagesPath": "/home/javierdevpro/.nuget/packages/",
-      "outputPath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Application/obj/",
+      "projectPath": "/home/emmanueljllo/Gestion-Clientes/management.Application/management.Application.csproj",
+      "packagesPath": "/home/emmanueljllo/.nuget/packages/",
+      "outputPath": "/home/emmanueljllo/Gestion-Clientes/management.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/javierdevpro/.nuget/NuGet/NuGet.Config"
+        "/home/emmanueljllo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -51,8 +51,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Domain/management.Domain.csproj": {
-              "projectPath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Domain/management.Domain.csproj"
+            "/home/emmanueljllo/Gestion-Clientes/management.Domain/management.Domain.csproj": {
+              "projectPath": "/home/emmanueljllo/Gestion-Clientes/management.Domain/management.Domain.csproj"
             }
           }
         }
@@ -88,7 +88,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/javierdevpro/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/emmanueljllo/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

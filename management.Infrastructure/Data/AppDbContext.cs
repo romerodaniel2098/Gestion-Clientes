@@ -5,24 +5,19 @@ namespace management.Infrastructure.Data;
 
 public class AppDbContext : DbContext
 {
-    //DbSets
     public DbSet<Customer> customers { get; set; }
     
     public AppDbContext(DbContextOptions<AppDbContext> options): base(options){}
-
-    //Here we are going to put our model's config 
+    public DbSet<OrderDetail> OrderDetails { get; set; } = null!;
+    
+    
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        base.OnModelCreating(modelBuilder);
-
-        // modelBuilder.Entity<Customer>()
-        //     .HasMany(c => c.Orders)
-        //     .WithOne(r => r.customers)
-        //     .HasForeignKey(r => r.CustomersId);
-        
-        // === Primary Keys ===
-        
-        // === Relation Ships ===
+        modelBuilder.Entity<OrderDetail>().ToTable("OrderDetails");
+        modelBuilder.Entity<OrderDetail>()
+            .Property(o => o.UnitPrice)
+            .HasColumnType("decimal(10,2)");
+    }
         
     }
-}
