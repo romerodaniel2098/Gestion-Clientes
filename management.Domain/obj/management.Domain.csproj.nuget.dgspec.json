@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Domain/management.Domain.csproj": {}
+    "/home/dani/Gestion-Clientes/management.Domain/management.Domain.csproj": {}
   },
   "projects": {
-    "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Domain/management.Domain.csproj": {
+    "/home/dani/Gestion-Clientes/management.Domain/management.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Domain/management.Domain.csproj",
+        "projectUniqueName": "/home/dani/Gestion-Clientes/management.Domain/management.Domain.csproj",
         "projectName": "management.Domain",
-        "projectPath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Domain/management.Domain.csproj",
-        "packagesPath": "/home/javierdevpro/.nuget/packages/",
-        "outputPath": "/home/javierdevpro/Escritorio/RutaAvanzada/Talleres/Gestion-Clientes/management.Domain/obj/",
+        "projectPath": "/home/dani/Gestion-Clientes/management.Domain/management.Domain.csproj",
+        "packagesPath": "/home/dani/.nuget/packages/",
+        "outputPath": "/home/dani/Gestion-Clientes/management.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/javierdevpro/.nuget/NuGet/NuGet.Config"
+          "/home/dani/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/javierdevpro/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
