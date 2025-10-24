@@ -1,0 +1,12 @@
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\bin\Debug\net9.0\management.Domain.deps.json
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\bin\Debug\net9.0\management.Domain.dll
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\bin\Debug\net9.0\management.Domain.pdb
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.AssemblyInfoInputs.cache
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.AssemblyInfo.cs
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.csproj.CoreCompileInputs.cache
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.sourcelink.json
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.dll
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\obj\Debug\net9.0\refint\management.Domain.dll
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.pdb
+C:\Users\57311\OneDrive\Documentos\programar\Riwi\C#\Practicas\Gestion-Clientes\management.Domain\obj\Debug\net9.0\ref\management.Domain.dll

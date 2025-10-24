@@ -1,4 +1,14 @@
+using management.Application.Services;
+using management.Infrastructure.Interfaces;
+using management.Infrastructure.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//dependences injection
+builder.Services.AddSingleton<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<CustomerService>();
+
+builder.Services.AddControllers();
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -33,6 +43,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
+app.MapControllers();
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Api/management.Api.csproj": {}
+    "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Api\\management.Api.csproj": {}
   },
   "projects": {
-    "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Api/management.Api.csproj": {
+    "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Api\\management.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Api/management.Api.csproj",
+        "projectUniqueName": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Api\\management.Api.csproj",
         "projectName": "management.Api",
-        "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Api/management.Api.csproj",
-        "packagesPath": "/home/jeronimo/.nuget/packages/",
-        "outputPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Api/obj/",
+        "projectPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Api\\management.Api.csproj",
+        "packagesPath": "C:\\Users\\57311\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jeronimo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\57311\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -26,8 +26,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj": {
-                "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj"
+              "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Application\\management.Application.csproj": {
+                "projectPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Application\\management.Application.csproj"
+              },
+              "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj"
               }
             }
           }
@@ -41,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -71,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj": {
+    "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Application\\management.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj",
+        "projectUniqueName": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Application\\management.Application.csproj",
         "projectName": "management.Application",
-        "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/management.Application.csproj",
-        "packagesPath": "/home/jeronimo/.nuget/packages/",
-        "outputPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Application/obj/",
+        "projectPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Application\\management.Application.csproj",
+        "packagesPath": "C:\\Users\\57311\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jeronimo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\57311\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -97,8 +101,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/management.Domain.csproj": {
-                "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/management.Domain.csproj"
+              "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Domain\\management.Domain.csproj": {
+                "projectPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Domain\\management.Domain.csproj"
               }
             }
           }
@@ -112,7 +116,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -133,21 +138,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/management.Domain.csproj": {
+    "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Domain\\management.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/management.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Domain\\management.Domain.csproj",
         "projectName": "management.Domain",
-        "projectPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/management.Domain.csproj",
-        "packagesPath": "/home/jeronimo/.nuget/packages/",
-        "outputPath": "/home/jeronimo/Documentos/C#/Practicas/Gestion-Clientes/management.Domain/obj/",
+        "projectPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Domain\\management.Domain.csproj",
+        "packagesPath": "C:\\Users\\57311\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jeronimo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\57311\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -170,7 +175,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -191,7 +197,86 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj",
+        "projectName": "management.Infrastructure",
+        "projectPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\57311\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\57311\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Application\\management.Application.csproj": {
+                "projectPath": "C:\\Users\\57311\\OneDrive\\Documentos\\programar\\Riwi\\C#\\Practicas\\Gestion-Clientes\\management.Application\\management.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
