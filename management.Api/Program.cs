@@ -1,24 +1,4 @@
-using management.Infrastructure.Data;
-using management.Infrastructure.Repositories;
-using management.Domain.Interfaces;
-using management.Application.Services;
-using management.Domain.Models;
-using Microsoft.EntityFrameworkCore;
-
 var builder = WebApplication.CreateBuilder(args);
-
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
-
-builder.Services.AddScoped<IRepository<OrderDetail>, OrderDetailRepository>();
-builder.Services.AddScoped<OrderDetailService>();
-
-//  Configuración general del API
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi

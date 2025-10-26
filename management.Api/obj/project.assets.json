@@ -1025,7 +1025,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "management.Domain": "1.0.0"
+          "management.Domain": "1.0.0",
+          "management.Infrastructure": "1.0.0"
         },
         "compile": {
           "bin/placeholder/management.Application.dll": {}
