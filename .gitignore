@@ -1,3 +1,7 @@
 .management.Api/appsettings.json
 management.Api/appsettings.json
-
+# Build folders
+.bin/
+.obj/
+bin/
+obj/

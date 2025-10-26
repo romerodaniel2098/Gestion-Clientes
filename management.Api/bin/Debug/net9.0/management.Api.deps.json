@@ -9,8 +9,6 @@
       "management.Api/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "9.0.10",
-          "management.Application": "1.0.0",
-          "management.Infrastructure": "1.0.0"
         },
         "runtime": {
           "management.Api.dll": {}
@@ -18,7 +16,6 @@
       },
       "Microsoft.AspNetCore.OpenApi/9.0.10": {
         "dependencies": {
-          "Microsoft.OpenApi": "1.6.17"
         },
         "runtime": {
           "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
@@ -50,17 +47,13 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/9.0.10": {},
-      "Microsoft.EntityFrameworkCore.Relational/9.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Microsoft.Extensions.Caching.Memory": "9.0.10",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
           "Microsoft.Extensions.Logging": "9.0.10"
         },
         "runtime": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52902"
           }
         }
       },
@@ -90,7 +83,6 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/9.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.10"
         }
@@ -158,11 +150,8 @@
           }
         }
       },
-      "Microsoft.OpenApi/1.6.17": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "assemblyVersion": "1.6.17.0",
-            "fileVersion": "1.6.17.0"
           }
         }
       },
@@ -180,7 +169,6 @@
       },
       "Pomelo.EntityFrameworkCore.MySql/9.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "9.0.0",
           "MySqlConnector": "2.4.0"
         },
         "runtime": {
@@ -192,7 +180,6 @@
       },
       "management.Application/1.0.0": {
         "dependencies": {
-          "management.Domain": "1.0.0"
         },
         "runtime": {
           "management.Application.dll": {
@@ -213,7 +200,6 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0",
-          "management.Application": "1.0.0"
         },
         "runtime": {
           "management.Infrastructure.dll": {
@@ -258,12 +244,8 @@
       "path": "microsoft.entityframeworkcore.analyzers/9.0.10",
       "hashPath": "microsoft.entityframeworkcore.analyzers.9.0.10.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-j+msw6fWgAE9M3Q/5B9Uhv7pdAdAQUvFPJAiBJmoy+OXvehVbfbCE8ftMAa51Uo2ZeiqVnHShhnv4Y4UJJmUzA==",
-      "path": "microsoft.entityframeworkcore.relational/9.0.0",
-      "hashPath": "microsoft.entityframeworkcore.relational.9.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/9.0.10": {
       "type": "package",
@@ -279,12 +261,8 @@
       "path": "microsoft.extensions.caching.memory/9.0.10",
       "hashPath": "microsoft.extensions.caching.memory.9.0.10.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lqvd7W3FGKUO1+ZoUEMaZ5XDJeWvjpy2/M/ptCGz3tXLD4HWVaSzjufsAsjemasBEg+2SxXVtYVvGt5r2nKDlg==",
-      "path": "microsoft.extensions.configuration.abstractions/9.0.0",
-      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/9.0.10": {
       "type": "package",
@@ -328,12 +306,8 @@
       "path": "microsoft.extensions.primitives/9.0.10",
       "hashPath": "microsoft.extensions.primitives.9.0.10.nupkg.sha512"
     },
-    "Microsoft.OpenApi/1.6.17": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Le+kehlmrlQfuDFUt1zZ2dVwrhFQtKREdKBo+rexOwaCoYP0/qpgT9tLxCsZjsgR5Itk1UKPcbgO+FyaNid/bA==",
-      "path": "microsoft.openapi/1.6.17",
-      "hashPath": "microsoft.openapi.1.6.17.nupkg.sha512"
     },
     "MySqlConnector/2.4.0": {
       "type": "package",

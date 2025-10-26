@@ -7,7 +7,9 @@ public class AppDbContext : DbContext
 {
     //DbSets
     public DbSet<Customer> customers { get; set; }
-    
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<OrderDetail> OrderDetails { get; set; } = null!;
+
     public AppDbContext(DbContextOptions<AppDbContext> options): base(options){}
 
     //Here we are going to put our model's config 
@@ -15,14 +17,16 @@ public class AppDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
-        // modelBuilder.Entity<Customer>()
-        //     .HasMany(c => c.Orders)
-        //     .WithOne(r => r.customers)
-        //     .HasForeignKey(r => r.CustomersId);
+        // === RELACIONES ===
+        modelBuilder.Entity<OrderDetail>().ToTable("OrderDetails");
+        modelBuilder.Entity<OrderDetail>()
+            .Property(o => o.UnitPrice)
+            .HasColumnType("decimal(10,2)");
         
-        // === Primary Keys ===
-        
-        // === Relation Ships ===
-        
+        // Un cliente puede tener muchos pedidos
+        modelBuilder.Entity<Order>()
+                    .HasOne(o => o.Customer)
+                    .WithMany(c => c.Orders)
+                    .HasForeignKey(o => o.CustomerId);
     }
 }
