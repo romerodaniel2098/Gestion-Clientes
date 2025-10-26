@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/home/emmanueljllo/Gestion-Clientes/management.Application/management.Application.csproj": {}
+    "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Application\\management.Application.csproj": {}
   },
   "projects": {
-    "/home/emmanueljllo/Gestion-Clientes/management.Application/management.Application.csproj": {
+    "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Application\\management.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/emmanueljllo/Gestion-Clientes/management.Application/management.Application.csproj",
+        "projectUniqueName": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Application\\management.Application.csproj",
         "projectName": "management.Application",
-        "projectPath": "/home/emmanueljllo/Gestion-Clientes/management.Application/management.Application.csproj",
-        "packagesPath": "/home/emmanueljllo/.nuget/packages/",
-        "outputPath": "/home/emmanueljllo/Gestion-Clientes/management.Application/obj/",
+        "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Application\\management.Application.csproj",
+        "packagesPath": "C:\\Users\\gnajs\\.nuget\\packages\\",
+        "outputPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/emmanueljllo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gnajs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/emmanueljllo/Gestion-Clientes/management.Domain/management.Domain.csproj": {
-                "projectPath": "/home/emmanueljllo/Gestion-Clientes/management.Domain/management.Domain.csproj"
+              "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Domain\\management.Domain.csproj": {
+                "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Domain\\management.Domain.csproj"
               }
             }
           }
@@ -63,26 +69,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/emmanueljllo/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/emmanueljllo/Gestion-Clientes/management.Domain/management.Domain.csproj": {
+    "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Domain\\management.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/emmanueljllo/Gestion-Clientes/management.Domain/management.Domain.csproj",
+        "projectUniqueName": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Domain\\management.Domain.csproj",
         "projectName": "management.Domain",
-        "projectPath": "/home/emmanueljllo/Gestion-Clientes/management.Domain/management.Domain.csproj",
-        "packagesPath": "/home/emmanueljllo/.nuget/packages/",
-        "outputPath": "/home/emmanueljllo/Gestion-Clientes/management.Domain/obj/",
+        "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Domain\\management.Domain.csproj",
+        "packagesPath": "C:\\Users\\gnajs\\.nuget\\packages\\",
+        "outputPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/emmanueljllo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gnajs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -122,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/emmanueljllo/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

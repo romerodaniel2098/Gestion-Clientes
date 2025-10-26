@@ -1,0 +1,12 @@
+/home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/management.Domain.AssemblyInfoInputs.cache
+/home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/management.Domain.AssemblyInfo.cs
+/home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/management.Domain.csproj.CoreCompileInputs.cache
+/home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/management.Domain.sourcelink.json
+/home/dani/Gestion-Clientes/management.Domain/bin/Debug/net9.0/management.Domain.deps.json
+/home/dani/Gestion-Clientes/management.Domain/bin/Debug/net9.0/management.Domain.dll
+/home/dani/Gestion-Clientes/management.Domain/bin/Debug/net9.0/management.Domain.pdb
+/home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/management.Domain.dll
+/home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/refint/management.Domain.dll
+/home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/management.Domain.pdb
+/home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/ref/management.Domain.dll
