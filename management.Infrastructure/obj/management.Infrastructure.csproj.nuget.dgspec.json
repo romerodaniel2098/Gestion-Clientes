@@ -34,6 +34,9 @@
             "projectReferences": {
               "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Domain\\management.Domain.csproj": {
                 "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Domain\\management.Domain.csproj"
+              },
+              "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj": {
+                "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj"
               }
             }
           }
