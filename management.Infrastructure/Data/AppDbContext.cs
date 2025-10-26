@@ -5,14 +5,14 @@ namespace management.Infrastructure.Data;
 
 public class AppDbContext : DbContext
 {
+    //DbSets
     public DbSet<Customer> customers { get; set; }
     public DbSet<Order> Orders { get; set; }
-    
-    public AppDbContext(DbContextOptions<AppDbContext> options): base(options){}
     public DbSet<OrderDetail> OrderDetails { get; set; } = null!;
-    
-    
-    
+
+    public AppDbContext(DbContextOptions<AppDbContext> options): base(options){}
+
+    //Here we are going to put our model's config 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -25,8 +25,8 @@ public class AppDbContext : DbContext
         
         // Un cliente puede tener muchos pedidos
         modelBuilder.Entity<Order>()
-            .HasOne(o => o.Customer)
-            .WithMany(c => c.Orders)
-            .HasForeignKey(o => o.CustomerId);
+                    .HasOne(o => o.Customer)
+                    .WithMany(c => c.Orders)
+                    .HasForeignKey(o => o.CustomerId);
     }
 }
