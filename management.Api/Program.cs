@@ -1,13 +1,22 @@
 using management.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using management.Application.Services;
+using management.Domain.Interfaces;
+using management.Domain.Models;
 using management.Infrastructure.Interfaces;
+using management.Infrastructure.Repositories;
 using management.Infrastructure.Repository;
 var builder = WebApplication.CreateBuilder(args);
 
-//dependences injection
-builder.Services.AddSingleton<ICustomerRepository, CustomerRepository>();
+// REPOSITORIOS
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<IRepository<Order>, OrderRepository>();
+builder.Services.AddScoped<IRepository<OrderDetail>, OrderDetailRepository>();
+
+//  SERVICIO
 builder.Services.AddScoped<CustomerService>();
+builder.Services.AddScoped<OrderService>();
+builder.Services.AddScoped<OrderDetailService>();
 
 // Configurar DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>

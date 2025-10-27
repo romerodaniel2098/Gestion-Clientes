@@ -6,7 +6,7 @@ namespace management.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class OrdersController : ControllerBase // 👈 plural por convención REST
+    public class OrdersController : ControllerBase
     {
         private readonly OrderService _service;
 
