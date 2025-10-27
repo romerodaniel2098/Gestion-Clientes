@@ -1,7 +1,13 @@
 using management.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using management.Application.Services;
+using management.Infrastructure.Interfaces;
+using management.Infrastructure.Repository;
 var builder = WebApplication.CreateBuilder(args);
 
+//dependences injection
+builder.Services.AddSingleton<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<CustomerService>();
 
 // Configurar DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -15,6 +21,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
