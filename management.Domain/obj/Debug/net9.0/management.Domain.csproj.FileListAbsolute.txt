@@ -10,3 +10,15 @@
 /home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/refint/management.Domain.dll
 /home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/management.Domain.pdb
 /home/dani/Gestion-Clientes/management.Domain/obj/Debug/net9.0/ref/management.Domain.dll
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\bin\Debug\net9.0\management.Domain.deps.json
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\bin\Debug\net9.0\management.Domain.dll
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\bin\Debug\net9.0\management.Domain.pdb
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.AssemblyInfoInputs.cache
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.AssemblyInfo.cs
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.csproj.CoreCompileInputs.cache
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.sourcelink.json
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.dll
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\obj\Debug\net9.0\refint\management.Domain.dll
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\obj\Debug\net9.0\management.Domain.pdb
+D:\Docs\TalleresRiwi\TallerS1M1\clonned\Gestion-Clientes\management.Domain\obj\Debug\net9.0\ref\management.Domain.dll
