@@ -1,5 +1,4 @@
-﻿
-using management.Domain.Models;
+﻿using management.Domain.Models;
 using management.Infrastructure.Interfaces;
 
 namespace management.Application.Services

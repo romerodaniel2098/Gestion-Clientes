@@ -1025,8 +1025,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "management.Domain": "1.0.0",
-          "management.Infrastructure": "1.0.0"
+          "management.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/management.Application.dll": {}
@@ -3323,11 +3322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Api\\management.Api.csproj",
+      "projectUniqueName": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\clonned\\Gestion-Clientes\\management.Api\\management.Api.csproj",
       "projectName": "management.Api",
-      "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Api\\management.Api.csproj",
+      "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\clonned\\Gestion-Clientes\\management.Api\\management.Api.csproj",
       "packagesPath": "C:\\Users\\gnajs\\.nuget\\packages\\",
-      "outputPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Api\\obj\\",
+      "outputPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\clonned\\Gestion-Clientes\\management.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3348,11 +3347,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Application\\management.Application.csproj": {
-              "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Application\\management.Application.csproj"
+            "D:\\Docs\\TalleresRiwi\\TallerS1M1\\clonned\\Gestion-Clientes\\management.Application\\management.Application.csproj": {
+              "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\clonned\\Gestion-Clientes\\management.Application\\management.Application.csproj"
             },
-            "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj": {
-              "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj"
+            "D:\\Docs\\TalleresRiwi\\TallerS1M1\\clonned\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj": {
+              "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\clonned\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj"
             }
           }
         }

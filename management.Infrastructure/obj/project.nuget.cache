@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7M6MCjQmrIE=",
-  "success": false,
-  "projectFilePath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj",
+  "dgSpecHash": "SyLxqeypbDU=",
+  "success": true,
+  "projectFilePath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\clonned\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gnajs\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\gnajs\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -47,17 +47,5 @@
     "C:\\Users\\gnajs\\.nuget\\packages\\system.text.json\\9.0.10\\system.text.json.9.0.10.nupkg.sha512",
     "C:\\Users\\gnajs\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  management.Infrastructure -> management.Application -> management.Infrastructure.",
-      "projectPath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj",
-      "filePath": "D:\\Docs\\TalleresRiwi\\TallerS1M1\\Gestion-Clientes\\management.Infrastructure\\management.Infrastructure.csproj",
-      "libraryId": "management.Infrastructure",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

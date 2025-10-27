@@ -24,13 +24,13 @@ namespace management.Api.Controllers
         }
 
         // 🔹 GET: api/orders/5
-        [HttpGet("{id:int}")]
-        public async Task<IActionResult> GetById(int id)
-        {
-            var order = await _service.GetByIdAsync(id);
-            if (order == null) return NotFound();
-            return Ok(order);
-        }
+        // [HttpGet("{id:int}")]
+        // public async Task<IActionResult> GetById(int id)
+        // {
+        //     var order = await _service.
+        //     if (order == null) return NotFound();
+        //     return Ok(order);
+        // }
 
         // 🔹 POST: api/orders
         [HttpPost]
@@ -39,7 +39,7 @@ namespace management.Api.Controllers
             if (order == null) return BadRequest("El cuerpo de la solicitud está vacío.");
             
             var created = await _service.CreateAsync(order);
-            return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
+            return CreatedAtAction(nameof(created), new { id = created.Id }, created);
         }
 
         // 🔹 PUT: api/orders/5
@@ -50,7 +50,7 @@ namespace management.Api.Controllers
                 return BadRequest("Los datos de la orden no coinciden.");
 
             var updated = await _service.UpdateAsync(id, order);
-            return updated ? NoContent() : NotFound();
+            return Ok(updated);
         }
 
         // 🔹 DELETE: api/orders/5
@@ -58,7 +58,7 @@ namespace management.Api.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var deleted = await _service.DeleteAsync(id);
-            return deleted ? NoContent() : NotFound();
+            return Ok(deleted);
         }
     }
 }

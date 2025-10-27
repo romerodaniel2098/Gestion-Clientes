@@ -1,10 +1,11 @@
-﻿using management.Domain.Models;
+﻿using management.Domain.Interfaces;
+using management.Domain.Models;
 using management.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace management.Infrastructure.Repositories
 {
-    public class OrderRepository
+    public class OrderRepository : IRepository<Order>
     {
         private readonly AppDbContext _context;
 
@@ -30,7 +31,7 @@ namespace management.Infrastructure.Repositories
         }
 
         // 🔹 Crear una orden
-        public async Task<Order> AddAsync(Order order)
+        public async Task<Order> CreateAsync(Order order)
         {
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
@@ -38,21 +39,21 @@ namespace management.Infrastructure.Repositories
         }
 
         // 🔹 Actualizar una orden
-        public async Task<bool> UpdateAsync(Order order)
+        public async Task<Order> UpdateAsync(int Id,Order order)
         {
-            var existing = await _context.Orders.FindAsync(order.Id);
-            if (existing == null) return false;
+            var existing = await _context.Orders.FindAsync(Id);
+            if (existing == null) return null;
 
             existing.OrderDate = order.OrderDate;
             existing.CustomerId = order.CustomerId;
 
             _context.Orders.Update(existing);
             await _context.SaveChangesAsync();
-            return true;
+            return existing;
         }
 
         // 🔹 Eliminar una orden
-        public async Task<bool> DeleteAsync(int id)
+        public async Task<bool?> DeleteAsync(int id)
         {
             var order = await _context.Orders.FindAsync(id);
             if (order == null) return false;
